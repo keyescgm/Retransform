@@ -1,0 +1,13 @@
+include ':aspectj'
+project(':aspectj').projectDir = new File('module/aspectj')
+
+include ':asm'
+project(':asm').projectDir = new File('module/asm')
+
+include ':spi'
+project(':spi').projectDir = new File('module/spi')
+
+include ':apt'
+project(':apt').projectDir = new File('module/apt')
+
+include ':app'
